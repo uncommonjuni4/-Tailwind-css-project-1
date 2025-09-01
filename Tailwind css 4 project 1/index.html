@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project 1</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+  <div class="min-h-screen bg-[url('images/image.png')] bg-center bg-cover px-4 md:px-10 xl:px-28 py-5 relative">
+    <!-- Navigation -->
+    <nav class="flex flex-wrap items-center justify-between">
+      <img src="images/logo.png" alt="Logo" class="w-32 md:w-40 cursor-pointer" />
+      <ul class="flex flex-wrap justify-center md:flex-1 text-center mt-4 md:mt-0">
+        <li class="list-none inline-block px-3 md:px-5"><a class="text-white no-underline px-2" href="#">Home</a></li>
+        <li class="list-none inline-block px-3 md:px-5"><a class="text-white no-underline px-2" href="#">Contact</a></li>
+        <li class="list-none inline-block px-3 md:px-5"><a class="text-white no-underline px-2" href="#">About</a></li>
+        <li class="list-none inline-block px-3 md:px-5"><a class="text-white no-underline px-2" href="#">Features</a></li>
+      </ul>
+      <img src="images/cart.png" alt="Cart" class="w-6 md:w-8 cursor-pointer mt-4 md:mt-0" />
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="text-white mt-20 md:mt-48 max-w-xl">
+      <h1 class="text-4xl md:text-6xl font-semibold leading-tight md:leading-normal">
+        Groceries <br /> delivery in <span class="font-light">15 mins</span>
+      </h1>
+      <p class="mt-4 text-sm md:text-base ">
+        Grocify offers a wide range of products including fresh produce, meats, dairy, baked goods, and non-perishable items.
+      </p>
+    </div>
+
+    <!-- Buttons -->
+    <div class="mt-8 md:mt-10  text-white flex flex-col md:flex-row gap-4">
+      <a href="#" class="bg-yellow-300 rounded-3xl px-6 py-2 text-black border border-transparent hover:bg-transparent hover:text-white hover:border-yellow-300 transition duration-300 inline-block">
+        Order now
+      </a>
+      <a href="#" class="inline-block text-white text-base">
+        Download App <span class="rotate-90 inline-block text-lg">&#10148;</span>
+      </a>
+    </div>
+
+    <!-- Grocery Image -->
+    <img src="images/grocery-image.png" class="w-full md:w-3/4 xl:w-1/2 xl:absolute bottom-0 right-10 mt-10 md:mt-0" alt="Grocery" />
+  </div>
+</body>
+</html>
