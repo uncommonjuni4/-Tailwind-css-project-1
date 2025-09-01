@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="src/style.css">
+    <script src="https://kit.fontawesome.com/a40bf45350.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+</head>
+<body   class="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-300">
+  <div class="min-h-screen px-6 py-3 text-white flex flex-col gap-10 md:px-10  lg:px-16 lg:py-7">
+  <header class="flex justify-between">
+    <a href="#" class="items-center">
+      <h1 class="text-4xl font-bold">WFA.
+      </h1>
+    </a>
+    <ul class="hidden lg:items-center lg:flex lg:gap-10 lg:text-lg lg:font-medium">
+      <li><a href="">Location</a></li>
+      <li><a href="">Pricing</a></li>
+      <li><a href="">Offering</a></li>
+      <li><a href="">About Us</a></li>
+    </ul>
+    <div class="hidden lg:items-center lg:flex lg:gap-10 lg:text-lg lg:font-medium">
+      <a href="">Login</a>
+      <button class="bg-purple-900 px-2 py-1 font-medium  rounded-md ">Register</button>
+    </div>
+    <div class="lg:hidden">
+    <i class="fa-solid fa-bars text-4xl "></i>
+    </div>
+  </header>
+  <!-- /main section -->
+   <main class="lg:flex ">
+    <div class="flex items-center justify-center flex-1 lg:order-2 lg:justify-end lg:ml-[20px]  image-transform">
+      <img src="images/wfa (2).jpg" class=" outline outline-white shadow-2xl shadow-black lg:h-[600px]  lg:w-[600px]  lg:rounded-full lg:m-l-[6[px]]" alt="">
+      
+    </div>
+    <div class="space-y-6 mt-16 lg:mt-32 flex-1  lg:order-1 text-transform">
+      <div  class="text-7xl font-bold leading-tight">
+        <h1>Let's Switch</h1>
+        <h1>To Remote</h1>
+        </div>
+        <p>WVFA provides top-notch office spaces in prime locations worldwide allowing people to work from anywhere. We provide coworking spaces where people from various backgrounds like remote workers, entrepreneurs, freelancers, and startup enthusiasts can work, connect, and grow their businesses.</p>
+        <form action="" class="flex flex-col gap-2 ">
+          <div class=" lg:flex-row">
+          <input type="text" placeholder="Enter Your city " class="bg-white text-gray-500 px-4 py-3 rounded-md">
+          <button class="bg-purple-900 px-4 py-3  font-medium rounded-md">Find Your office</button>
+          </div>
+          <div class="flex flex-col gap-4 py-7">
+            <p class="font-semibold">Used by these compines:</p>
+            <ul class="flex  gap-6">
+              <li>
+                <i class="fa-brands fa-twitter  fa-2x"></i> </li>
+                <li><i class="fa-brands fa-airbnb fa-2x"></i></li>
+                <li><i class="fa-brands fa-facebook fa-2x"></i></li>
+                <li><i class="fa-brands fa-apple fa-2x"></i></li>
+            
+            </ul>
+          </div>
+        </form>
+        </div>
+      </div>
+    
+   </main>
+  </div>
+
+<!-- 
+  <script>
+
+const scrool = ScrollReveal({
+    reset:true,
+    duration:2600,
+    distance:'60px'
+});
+scroll.reveal('.imge-transform',{delay:400 ,origin:'top'})
+scroll.reveal('.text-transform',{delay:300 ,origin:'left'})
+  
+  </script> -->
+  <script>
+  const scroll = ScrollReveal({
+    reset: true,
+    duration: 2600,
+    distance: '60px'
+  });
+
+  scroll.reveal('.image-transform', { delay: 400, origin: 'top' });
+  scroll.reveal('.text-transform', { delay: 300, origin: 'left' });
+</script>
+</body>
+</html>
